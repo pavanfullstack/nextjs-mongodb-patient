@@ -5,6 +5,8 @@ import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 import { LoginLink } from "@kinde-oss/kinde-auth-nextjs/components";
 import Link from "next/link";
 
+export const maxDuration = 60;
+
 export const dynamic = "force-dynamic";
 
 export async function loadTasks() {
