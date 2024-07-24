@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* @apply bg-white; */
+  background-image: url("/background.jpg");
+  background-color: rgba(0, 0, 0, 0.644);
+  background-blend-mode: overlay;
+  color: white;
+}
